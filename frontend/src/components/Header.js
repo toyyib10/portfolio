@@ -7,7 +7,7 @@ const Header = () => {
         <div className='d-flex align-items-center'>
           <h2 className='text-white toyyib'>TOYYIB</h2>
         </div>
-        <div className='d-flex justify-content-between'>
+        <div className='d-flex justify-content-between align-items-center'>
           <button className='btn rounded-0 mx-2 border-0 border-bottom border-white' style={{"color":"grey"}}>
             Home
           </button>

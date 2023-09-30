@@ -4,10 +4,10 @@
   background-color: #B3ECFB;
 }
 @font-face {
-  font-family: fortune;
-  src: url(../public/Fortune.otf);
+  font-family: font;
+  src: url(../public/font.ttf);
 }
-
 .toyyib {
-  font-family: fortune;
+  font-family: font;
+  font-size: 2.5em;
 }
