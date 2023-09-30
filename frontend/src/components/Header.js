@@ -3,20 +3,33 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-      <div className='col-12 d-flex align-items-center justify-content-between ps-3 pe-4 bg-light shadow'>
+      <section className='d-flex w-100 px-4 justify-content-between pt-2 align-items-center flex-shrink'>
+        <div className='d-flex align-items-center'>
+          <h2 className='text-white toyyib'>TOYYIB</h2>
+        </div>
+        <div className='d-flex justify-content-between'>
+          <button className='btn rounded-0 mx-2 border-0 border-bottom border-white' style={{"color":"grey"}}>
+            Home
+          </button>
+          <button className='btn mx-2 text-white rounded-0'>
+            About Me
+          </button>
+          <button className='btn mx-2 text-white rounded-0'>
+            Skills
+          </button>
+          <button className='btn mx-2 text-white rounded-0'>
+            Project
+          </button>
+          <button className='btn mx-2 text-white rounded-0'>
+            Get In touch
+          </button>
+        </div>
         <div>
-          <img src="images/logo.png" height={"70"} alt="d" />
+          <button className='btn p-2 shadow text-white rounded-0' style={{"backgroundColor":"grey"}}>Download CV</button>
         </div>
-        <div className='d-flex col-8 justify-content-between align-items-center'>
-          <h2>Home</h2>
-          <h2>About</h2>
-          <h2>Contact</h2>
-          <h2>Skills</h2>
-          <h2>Projects</h2>
-        </div>
-      </div>
+      </section>
     </>
   )
 }
 
-export default Header
+export default Header;

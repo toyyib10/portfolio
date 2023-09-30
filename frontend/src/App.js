@@ -5,6 +5,7 @@ import Contact from './files/Contact';
 import Error from './files/Error';
 import Home from './files/Home';
 import Index from './files/Index';
+import "./App.css"
 
 const App = () => {
   return (
