@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Header from "../components/Header"
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
             </h1>
             <p className='mt-4' style={{"color":"grey"}}>I'm a MERN stack developer specializing in MERN stack (MONGODB, EXPRESS, REACT and NODE) with over 2 years of experience building scalable web application. I have worked on variety of projects and I'm always eager to learn new technologies and improve my skills.</p>
             <div className='w-100 d-flex pt-3'>
-              <button className='btn text-white rounded-0 shadow me-4' style={{"backgroundColor":"grey"}}>Get in touch</button>
+              <Link to={"/get in touch"} className='btn text-white rounded-0 shadow me-4' style={{"backgroundColor":"grey"}}>Get in touch</Link>
               <button className='btn bg-white rounded-0 shadow ms-4' style={{"color":"grey"}}>About Me</button>
             </div>
           </div>
