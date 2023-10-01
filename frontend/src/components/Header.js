@@ -12,7 +12,7 @@ const Header = () => {
           <Link to="/home" className='btn rounded-0 mx-2 border-0 border-bottom border-white' style={{"color":"grey"}}>
             Home
           </Link>
-          <Link className='btn mx-2 text-white rounded-0'>
+          <Link to="/about me" className='btn mx-2 text-white rounded-0'>
             About Me
           </Link>
           <Link className='btn mx-2 text-white rounded-0'>
