@@ -15,7 +15,7 @@ const Header = () => {
           <Link to="/about me" className='btn mx-2 text-white rounded-0'>
             About Me
           </Link>
-          <Link className='btn mx-2 text-white rounded-0'>
+          <Link to='/skills' className='btn mx-2 text-white rounded-0'>
             Skills
           </Link>
           <Link className='btn mx-2 text-white rounded-0'>
