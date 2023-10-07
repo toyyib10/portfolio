@@ -1,7 +1,9 @@
+* {
+  background-color: #B3ECFB;
+}
 .section{
   height: 100vh;
   width: 100%;
-  background-color: #B3ECFB;
 }
 @font-face {
   font-family: font;
